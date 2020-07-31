@@ -28,12 +28,53 @@
         min-height: calc(100vh - 100px);
         width: 100%;
     }
+    .main_content{
+        text-indent: 40px;
+        text-align: justify;
+        word-spacing: 5px;
+        line-height: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
     h2{
         text-align:center;
         text-transform: uppercase;
     }
+    .line_in_page{
+        padding: 0 15px;
+    }
+    table{
+        background-color: #ffffff;
+        width: 100%;
+        border-collapse: collapse;
+        font-weight: 800;
+        table-layout: fixed;
+    }
+    tr{
+        height: 90px;
+    }
     td{
         padding: 7px;
+    }
+    .left_td{
+        border-bottom: 1px solid #808080;
+    }
+    .center_td{
+        max-width: calc(50% - 100px);
+        border-bottom: 1px solid #808080;
+    }
+    .right_td{
+        width: 200px;
+        text-align: right;
+        border-bottom: 1px solid #808080;
+    }
+    .price{
+        font-size: 18px;
+    }
+    .text_column{
+        color:#181818;
+        font-size: 12px;
     }
     .button_category {
         float: left;
@@ -100,4 +141,16 @@
     }
     .name_courses:hover{
         color: #0d64a3;
+    }
+    footer{
+        height: 40px;
+        background-color: #353535;
+    }
+    .footer_text{
+        text-align: center;
+        line-height: 40px;
+    }
+    .link_footer{
+        text-decoration: none;
+        color: #e8e8e8;
     }
