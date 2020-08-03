@@ -16,7 +16,7 @@
         text-decoration: none;
     }
     .home_text{
-        color: #c1bdc0;
+        color: #ffffff;
         font-size: 90px;
         font-weight: 900;
         padding-left: 100px;
@@ -26,7 +26,6 @@
     main{
         background-color: #e8e8e8;
         min-height: calc(100vh - 100px);
-        width: 100%;
     }
     .main_content{
         text-indent: 40px;
@@ -48,11 +47,7 @@
         background-color: #ffffff;
         width: 100%;
         border-collapse: collapse;
-        font-weight: 800;
         table-layout: fixed;
-    }
-    tr{
-        height: 90px;
     }
     td{
         padding: 7px;
@@ -61,20 +56,20 @@
         border-bottom: 1px solid #808080;
     }
     .center_td{
-        max-width: calc(50% - 100px);
         border-bottom: 1px solid #808080;
     }
     .right_td{
         width: 200px;
-        text-align: right;
         border-bottom: 1px solid #808080;
     }
     .price{
-        font-size: 18px;
+        font-size: 20px;
+        padding: 2px;
     }
     .text_column{
         color:#181818;
-        font-size: 12px;
+        font-size: 14px;
+        padding: 2px;
     }
     .button_category {
         float: left;
@@ -98,34 +93,29 @@
         text-decoration: underline;
     }
     .button_green{
-        text-align:center;
         background-color:#a3c644;
-        margin:5px 20px 5px 20px;
-        padding-top:7px;
-        padding-bottom:7.3px;
-        border-radius:3px;
+        padding: 7px 0;
         color:#ffffff;
-        font-size:13px;
         letter-spacing:1px;
-        font-weight:500;
         border-bottom:1.3px solid #89a73b;
+    }
+    .button_white{
+        padding: 7px 0;
+        border: 1px solid #2f86c1;
+        color: #2f86c1;
+        cursor: pointer;
+    }
+    .button_in_column{
+        text-align:center;
+        margin:5px 20px;
+        border-radius: 3px;
+        font-size:13px;
+        font-weight: 600;
     }
     .button_green:hover{
         background-color: #8caa3c;
         cursor: pointer;
         transition: 0.5s;
-    }
-    .button_white{
-        text-align: center;
-        margin: 5px 20px 5px 20px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        border: 1px solid #2f86c1;
-        border-radius: 3px;
-        color: #2f86c1;
-        font-size: 13px;
-        font-weight: 600;
-        cursor: pointer;
     }
     .button_white:hover{
         color: #2971a1;
@@ -136,8 +126,9 @@
     }
     .name_courses{
         color: #2a8bd7;
-        font-size: 16px;
+        font-size: 18px;
         cursor: pointer;
+        padding: 2px;
     }
     .name_courses:hover{
         color: #0d64a3;
