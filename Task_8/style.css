@@ -132,10 +132,10 @@ input[name="X1"]:checked ~ #big_1_x{
 input[name="X1"]:checked ~ .game_field_1{
     display: none;
 }
-input[name="01"]:checked ~ #big_1_0{
+input[name="O1"]:checked ~ #big_1_0{
     display: block;
 }
-input[name="01"]:checked ~ .game_field_1{
+input[name="O1"]:checked ~ .game_field_1{
     display: none;
 }
 /*___________________________________________*/
@@ -145,10 +145,10 @@ input[name="X2"]:checked ~ #big_2_x{
 input[name="X2"]:checked ~ .game_field_2{
     display: none;
 }
-input[name="02"]:checked ~ #big_2_0{
+input[name="O2"]:checked ~ #big_2_0{
     display: block;
 }
-input[name="02"]:checked ~ .game_field_2{
+input[name="O2"]:checked ~ .game_field_2{
     display: none;
 }
 /*___________________________________________*/
@@ -158,10 +158,10 @@ input[name="X3"]:checked ~ #big_3_x{
 input[name="X3"]:checked ~ .game_field_3{
     display: none;
 }
-input[name="03"]:checked ~ #big_3_0{
+input[name="O3"]:checked ~ #big_3_0{
     display: block;
 }
-input[name="03"]:checked ~ .game_field_3{
+input[name="O3"]:checked ~ .game_field_3{
     display: none;
 }
 /*___________________________________________*/
@@ -171,10 +171,10 @@ input[name="X4"]:checked ~ #big_4_x{
 input[name="X4"]:checked ~ .game_field_4{
     display: none;
 }
-input[name="04"]:checked ~ #big_4_0{
+input[name="O4"]:checked ~ #big_4_0{
     display: block;
 }
-input[name="04"]:checked ~ .game_field_4{
+input[name="O4"]:checked ~ .game_field_4{
     display: none;
 }
 /*___________________________________________*/
@@ -184,10 +184,10 @@ input[name="X5"]:checked ~ #big_5_x{
 input[name="X5"]:checked ~ .game_field_5{
     display: none;
 }
-input[name="05"]:checked ~ #big_5_0{
+input[name="O5"]:checked ~ #big_5_0{
     display: block;
 }
-input[name="05"]:checked ~ .game_field_5{
+input[name="O5"]:checked ~ .game_field_5{
     display: none;
 }
 /*___________________________________________*/
@@ -197,10 +197,10 @@ input[name="X6"]:checked ~ #big_6_x{
 input[name="X6"]:checked ~ .game_field_6{
     display: none;
 }
-input[name="06"]:checked ~ #big_6_0{
+input[name="O6"]:checked ~ #big_6_0{
     display: block;
 }
-input[name="06"]:checked ~ .game_field_6{
+input[name="O6"]:checked ~ .game_field_6{
     display: none;
 }
 /*___________________________________________*/
@@ -210,10 +210,10 @@ input[name="X7"]:checked ~ #big_7_x{
 input[name="X7"]:checked ~ .game_field_7{
     display: none;
 }
-input[name="07"]:checked ~ #big_7_0{
+input[name="O7"]:checked ~ #big_7_0{
     display: block;
 }
-input[name="07"]:checked ~ .game_field_7{
+input[name="O7"]:checked ~ .game_field_7{
     display: none;
 }
 /*___________________________________________*/
@@ -223,10 +223,10 @@ input[name="X8"]:checked ~ #big_8_x{
 input[name="X8"]:checked ~ .game_field_8{
     display: none;
 }
-input[name="08"]:checked ~ #big_8_0{
+input[name="O8"]:checked ~ #big_8_0{
     display: block;
 }
-input[name="08"]:checked ~ .game_field_8{
+input[name="O8"]:checked ~ .game_field_8{
     display: none;
 }
 /*___________________________________________*/
@@ -236,10 +236,10 @@ input[name="X9"]:checked ~ #big_9_x{
 input[name="X9"]:checked ~ .game_field_9{
     display: none;
 }
-input[name="09"]:checked ~ #big_9_0{
+input[name="O9"]:checked ~ #big_9_0{
     display: block;
 }
-input[name="09"]:checked ~ .game_field_9{
+input[name="O9"]:checked ~ .game_field_9{
     display: none;
 }
 /*___________________________________________*/
@@ -310,7 +310,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-0-0-0-*/
 /*-@-@-@-*/
 /*-@-@-@-*/
-#0_1:checked ~ #0_2:checked  ~ #0_3:checked ~ .res_0 {
+#O_1:checked ~ #O_2:checked ~ #O_3:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
@@ -318,7 +318,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-@-@-@-*/
 /*-0-0-0-*/
 /*-@-@-@-*/
-#0_4:checked ~ #0_5:checked ~ #0_6:checked ~ .res_0 {
+#O_4:checked ~ #O_5:checked ~ #O_6:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
@@ -326,7 +326,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-@-@-@-*/
 /*-@-@-@-*/
 /*-0-0-0-*/
-#0_7:checked ~ #0_8:checked  ~ #0_9:checked ~ .res_0 {
+#O_7:checked ~ #O_8:checked  ~ #O_9:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
@@ -334,7 +334,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-0-@-@-*/
 /*-0-@-@-*/
 /*-0-@-@-*/
-#0_1:checked ~ #0_4:checked ~ #0_7:checked ~ .res_0 {
+#O_1:checked ~ #O_4:checked ~ #O_7:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
@@ -342,7 +342,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-@-0-@-*/
 /*-@-0-@-*/
 /*-@-0-@-*/
-#0_2:checked ~ #0_5:checked ~ #0_8:checked ~ .res_0 {
+#O_2:checked ~ #O_5:checked ~ #O_8:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
@@ -350,7 +350,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-@-@-0-*/
 /*-@-@-0-*/
 /*-@-@-0-*/
-#0_3:checked ~ #0_6:checked ~ #0_9:checked ~ .res_0 {
+#O_3:checked ~ #O_6:checked ~ #O_9:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
@@ -358,7 +358,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-@-@-0-*/
 /*-@-0-@-*/
 /*-0-@-@-*/
-#0_3:checked ~ #0_5:checked ~ #0_7:checked ~ .res_0 {
+#O_3:checked ~ #O_5:checked ~ #O_7:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
@@ -366,7 +366,7 @@ input[name="09"]:checked ~ .game_field_9{
 /*-0-@-@-*/
 /*-@-0-@-*/
 /*-@-@-0-*/
-#0_1:checked ~ #0_5:checked ~ #0_9:checked ~ .res_0 {
+#O_1:checked ~ #O_5:checked ~ #O_9:checked ~ .res_0 {
     display: block;
     position: absolute;
 }
