@@ -1,2 +1,0 @@
-# FD_1_Aliaksandr_Varachkin
-Project Varachkin_Aliaksandr
