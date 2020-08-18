@@ -40,9 +40,7 @@
         text-align:center;
         text-transform: uppercase;
     }
-    .line_in_page{
-        padding: 0 15px;
-    }
+
     table{
         background-color: #ffffff;
         width: 100%;
@@ -70,27 +68,6 @@
         color:#181818;
         font-size: 14px;
         padding: 2px;
-    }
-    .button_category {
-        float: left;
-        background-color: #ffffff;
-        color: #2f86c1;
-        margin: 8px;
-        padding: 10px;
-        width: 22%;
-        height: 40px;
-        font-weight: 900;
-        font-size: 14px;
-        line-height: 40px;
-        min-width: 250px;
-    }
-    .button_category:hover {
-        cursor: pointer;
-        box-shadow:-2px 6px 9px 0px rgb(122, 122, 122);
-        -webkit-box-shadow:-2px 6px 9px 0px rgba(122,122,122,1);
-        -moz-box-shadow:-2px 6px 9px 0px rgba(122,122,122,1);
-        transition: 0.5s;
-        text-decoration: underline;
     }
     .button_green{
         background-color:#a3c644;
