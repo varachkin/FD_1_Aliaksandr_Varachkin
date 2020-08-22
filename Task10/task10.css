@@ -1,5 +1,17 @@
-@media (min-width: 1080px){
-
+@media (max-width: 1600px){
+.container{
+    max-width: 1280px;
+}
+}
+@media (max-width: 1279px){
+    .container{
+        max-width: 920px;
+    }
+}
+@media (max-width: 920px){
+    .container{
+        max-width: none;
+    }
 }
 @font-face {
     font-family: BebasNeueRegular;
@@ -9,26 +21,36 @@
     font-family: StMarie-Thin;
     src: url(ttf/StMarie-Thin.otf);
 }
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 170px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.header-contain{
     background-color: #ffffff;
     height: 170px;
     font-family: Calibri;
     font-weight: 600;
     color: #525252;
-}
-.header-contain{
     height: 170px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: fixed;
-    left: 0;
-    right: 0;
+    justify-content: space-between;
     background-color: #ffffff;
 }
 .logo-site{
     height: 120px;
     width: 90px;
+    margin-right: 60px;
 }
 .name-site{
     text-align: center;
@@ -58,6 +80,9 @@
     padding-top: 10px;
     font-size: 22px;
     color: rgba(68, 68, 68, 0.82);
+}
+.main{
+    margin-top: 170px;
 }
 .navigation_Home{
     background-position: 0 0;
@@ -108,17 +133,17 @@
     letter-spacing: 2px;
 }
 .column-content{
-    margin: 30px 200px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .column{
-    width: 400px;
+    width: 350px;
     text-align: justify;
-    margin: 0 15px;
     font-family: Calibri;
     font-weight: 600;
     font-size: 22px;
+    padding: 20px;
 }
 .read_more{
     text-align: right;
@@ -140,8 +165,8 @@ h3{
 }
 .about_position{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .column-position{
 
@@ -173,24 +198,19 @@ h3{
 .entry_field{
 
 }
-.form{
-    margin: 0 200px;
-}
 .element-form{
-    margin: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    padding: 5px 0;
 }
 .lable{
     font-size: 30px;
     color: #fb9d01;
-    display: flex;
     width: 140px;
-    justify-content: left;
 }
 .input{
     height: 30px;
-    width: 80%;
+    width: 90%;
     -webkit-box-shadow: inset 5px 5px 0px -2px rgba(0,0,0,0.21);
     box-shadow: inset 5px 5px 0px -2px rgba(0,0,0,0.21);
     border: 0;
@@ -210,9 +230,9 @@ h3{
     border-radius: 3px;
     font-family: StMarie-Thin;
     font-weight: 600;
-    justify-content: right;
 }
 .footer{
+    margin-top: 15px;
     height: 80px;
     background-color: #fb9d01;
     color: #F0F0F0;
