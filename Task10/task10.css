@@ -1,17 +1,5 @@
-@media (max-width: 1600px){
-.container{
-    max-width: 1280px;
-}
-}
-@media (max-width: 1279px){
-    .container{
-        max-width: 920px;
-    }
-}
-@media (max-width: 920px){
-    .container{
-        max-width: none;
-    }
+body{
+    margin: 0;
 }
 @font-face {
     font-family: BebasNeueRegular;
@@ -36,7 +24,6 @@
     text-align: center;
 }
 .header-contain{
-    background-color: #ffffff;
     height: 170px;
     font-family: Calibri;
     font-weight: 600;
@@ -46,6 +33,9 @@
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
+}
+.header-logo{
+    display: flex;
 }
 .logo-site{
     height: 120px;
@@ -68,14 +58,14 @@
 .navigation_menu{
     display: flex;
 }
-.navigation_button{
+.navigation_menu_block > div:first-child{
     background-image: url("img/sprite.png");
     width: 54px;
     height: 47px;
     margin: auto 40px;
     background-repeat: no-repeat;
 }
-.text_button{
+.navigation_menu_block > div:last-child{
     text-align: center;
     padding-top: 10px;
     font-size: 22px;
@@ -161,15 +151,14 @@ h3{
     justify-content: center;
 }
 .span-h3{
-    border-bottom: 2px solid #fb9d01;
+    text-decoration: underline;
 }
+
 .about_position{
+    margin: 0 200px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-.column-position{
-
 }
 .person_head{
     text-align: center;
@@ -195,9 +184,6 @@ h3{
     font-weight: 800;
     margin: 20px auto;
 }
-.entry_field{
-
-}
 .element-form{
     display: flex;
     justify-content: flex-end;
@@ -220,8 +206,8 @@ h3{
     min-height: 62px;
 }
 .submit{
-    width: 200px;
-    height: 60px;
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #fb9d01;
     color: #F0F0F0;
     font-size: 25px;
