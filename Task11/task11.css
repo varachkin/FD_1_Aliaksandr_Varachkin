@@ -2,15 +2,15 @@ body{
     margin: 0;
     font-family: Calibri, sans-serif;
 }
-.header{
+header{
     display: flex;
     color: #514d50;
     align-items: center;
     height: 80px;
-    background-color: white;
 }
-.htop{
+.top{
     position: fixed;
+    background-color: white;
     top: 0;
     left: 0;
     right: 0;
