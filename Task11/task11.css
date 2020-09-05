@@ -22,16 +22,16 @@ header{
     padding: 0 40px;
     font-size: 22px;
     flex-basis: 0;
-    flex-grow: 3;
+    flex-grow: 1;
 }
 .center{
     flex-basis: 0;
-    flex-grow: 4;
+    flex-grow: 1;
 }
 .rigt{
     display: flex;
     flex-basis: 0;
-    flex-grow: 1;
+    min-width: 310px;
     margin-right: 15px;
     justify-content: flex-end;
 }
@@ -101,4 +101,9 @@ header{
     background-color: #c1bdc0;
     border-radius: 4px;
     transition: 0.5s;
+}
+@media (max-width: 980px) {
+    .string{
+        width: 340px;
+    }
 }
