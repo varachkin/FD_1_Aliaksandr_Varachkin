@@ -6,3 +6,8 @@ c = d;
 d = x;
 console.log(c);
 console.log(d);
+c = c + d;
+d = c - d;
+c = c - d;
+console.log(c);
+console.log(d);
