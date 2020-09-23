@@ -181,10 +181,10 @@ footer{
 @media screen and (max-width: 1200px) {
     table{
         width: 1200px;
+
     }
 }
 @media screen and (max-width: 1200px) {
     .table{
         overflow-x: auto;
     }
-}
