@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(ttf/BebasNeueRegular.ttf);
+}
+@font-face {
+    font-family: StMarie-Thin;
+    src: url(ttf/StMarie-Thin.otf);
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 170px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.header-contain{
+    height: 170px;
+    font-family: Calibri;
+    font-weight: 600;
+    color: #525252;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.header-logo{
+    display: flex;
+}
+.logo-site{
+    height: 120px;
+    width: 90px;
+    margin-right: 60px;
+}
+.name-site{
+    text-align: center;
+}
+.name-orange{
+    font-family: Calibri;
+    font-size: 30px;
+    color: rgb(252, 163, 0);
+}
+.name-rabbit{
+    font-family: BebasNeueRegular;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.navigation_menu{
+    display: flex;
+}
+.navigation_menu_block > div:first-child{
+    background-image: url("img/sprite.png");
+    width: 54px;
+    height: 47px;
+    margin: auto 40px;
+    background-repeat: no-repeat;
+}
+.navigation_menu_block > div:last-child{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 22px;
+    color: rgba(68, 68, 68, 0.82);
+}
+.main{
+    margin-top: 170px;
+}
+.navigation_Home{
+    background-position: 0 0;
+}
+.navigation_About{
+    background-position: -55px 0;
+}
+.navigation_Work{
+    background-position: -110px 0;
+}
+.navigation_Blog{
+    background-position: -165px 0;
+}
+.navigation_Contact{
+    background-position: -220px 0;
+}
+.image-orange{
+    background-image: url("img/big-orange-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid rgb(252, 163, 0);
+    border-top: 4px solid rgb(252, 163, 0);
+}
+.question-block{
+    margin-left:200px;
+}
+.question-main{
+    margin: 20px;
+    font-size: 50px;
+    padding: 10px 20px;
+}
+.question-rabbits{
+    background-color: rgba(29, 29, 29, 0.55);
+    color: rgb(252, 163, 0);
+    font-family: BebasNeueRegular;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.question-oranges{
+    background-color: rgba(255, 157, 0, 0.55);
+    color: rgba(7, 5, 0, 0.48);
+    font-family: BebasNeueRegular;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.column-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.column{
+    width: 350px;
+    text-align: justify;
+    font-family: Calibri;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 20px;
+}
+.read_more{
+    text-align: right;
+    margin-top:10px;
+    font-style: italic;
+    color: #fb9d01;
+}
+h3{
+    color: #fb9d01;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: StMarie-Thin;
+    display: flex;
+    justify-content: center;
+}
+.span-h3{
+    text-decoration: underline;
+}
+
+.about_position{
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.person_head{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 22px;
+    font-weight: 800;
+}
+.position-color{
+    color: #fb9d01;
+}
+.person_image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 8px solid #fb9d01;
+    margin: 10px;
+}
+.person_description{
+    text-align: justify;
+    max-width: 350px;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px auto;
+}
+.element-form{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+.lable{
+    font-size: 30px;
+    color: #fb9d01;
+    width: 140px;
+}
+.input{
+    height: 30px;
+    width: 90%;
+    -webkit-box-shadow: inset 5px 5px 0px -2px rgba(0,0,0,0.21);
+    box-shadow: inset 5px 5px 0px -2px rgba(0,0,0,0.21);
+    border: 0;
+    background-color: #f6f6f6;
+}
+.textarea{
+    min-height: 62px;
+}
+.submit{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fb9d01;
+    color: #F0F0F0;
+    font-size: 25px;
+    border: 0;
+    border-bottom: 3px solid #c67401;
+    border-radius: 3px;
+    font-family: StMarie-Thin;
+    font-weight: 600;
+}
+.footer{
+    margin-top: 15px;
+    height: 80px;
+    background-color: #fb9d01;
+    color: #F0F0F0;
+    text-align: center;
+    font-size: 35px;
+    line-height: 80px;
+    font-family: StMarie-Thin;
+    font-weight: 300;
+}
