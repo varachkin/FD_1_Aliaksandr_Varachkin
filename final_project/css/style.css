@@ -69,7 +69,7 @@ li a {
     padding: 5px 10px;
 }
 .header__button:hover{
-    box-shadow: -1px 2px 12px 0 rgba(112,112,112,1);
+    box-shadow: -1px 2px 12px 0 rgb(173, 121, 76);
     border-radius: 10px;
     transition: 0.3s;
     color: rgba(255, 251, 243, 0.87);
@@ -100,11 +100,6 @@ li a {
 .main-image__text div:last-child{
     padding: 10px 0;
     font-size: 20px;
-}
-.footer{
-    flex-wrap: wrap;
-    height: 100px;
-    border: 1px solid black;
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -139,6 +134,102 @@ li a {
 }
 #main {
     transition: 0.5s;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.main-content__block{
+    width: 320px;
+    height: 400px;
+    padding: 7px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.main-content__block:hover{
+    box-shadow: 2px 6px 67px -16px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    padding-top: 5px;
+    font-family: Cabin, sans-serif;
+    opacity: 70%;
+    font-size: 12px;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.footer-top div{
+    min-width: 350px;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-top__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top__logo a{
+    display: inline-block;
+    background-image: url(../img/sprite.png);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-repeat: no-repeat;
+}
+.footer-top__icon-1{
+    background-position: -3px -55px;
+}
+.footer-top__icon-2{
+    background-position: -53px -55px;
+}
+.footer-top__icon-3{
+    background-position: -103px -55px;
+}
+.footer-top__icon-4{
+    background-position: -147px -55px;
+}
+.footer-top__icon-5{
+    background-position: -197px -55px;
+}
+.footer-top__icon-1:hover{
+    background-position: -3px -5px;
+}
+.footer-top__icon-2:hover{
+    background-position: -53px -5px;
+}
+.footer-top__icon-3:hover{
+    background-position: -103px -5px;
+}
+.footer-top__icon-4:hover{
+    background-position: -147px -5px;
+}
+.footer-top__icon-5:hover{
+    background-position: -197px -5px;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-bottom div{
+    text-align: center;
+    padding: 10px 0;
+    min-width: 350px;
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -177,5 +268,11 @@ li a {
     .main-image__text div:last-child{
         padding: 10px 0;
         font-size: 15px;
+    }
+    .footer-top{
+        justify-content: center;
+    }
+    .footer-bottom{
+        justify-content: center;
     }
 }
