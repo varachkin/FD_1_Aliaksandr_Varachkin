@@ -83,6 +83,7 @@ li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 300px;
 }
 .main-image__text{
     font-family: Cabin, sans-serif;
@@ -143,8 +144,8 @@ li a {
     padding: 10px 0;
 }
 .main-content__block{
-    width: 320px;
-    height: 400px;
+    min-width: 280px;
+    height: 370px;
     padding: 7px;
     border: 1px solid black;
     margin: 5px;
@@ -229,7 +230,7 @@ li a {
 .footer-bottom div{
     text-align: center;
     padding: 10px 0;
-    min-width: 350px;
+    min-width: 300px;
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -274,5 +275,13 @@ li a {
     }
     .footer-bottom{
         justify-content: center;
+    }
+}
+@media (max-width: 350px){
+    .main-image{
+        min-width: 350px;
+    }
+    .main-content{
+        min-width: 350px;
     }
 }
