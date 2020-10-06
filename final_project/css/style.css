@@ -33,6 +33,7 @@ header{
     left: 0;
     right: 0;
     background-color: rgba(45, 45, 45, 0.80);
+    z-index: 3;
 }
 .header{
     height: 120px;
@@ -73,46 +74,28 @@ li a {
     border-radius: 10px;
     transition: 0.3s;
     color: rgba(255, 251, 243, 0.87);
+    text-decoration: none;
 }
-.main-image{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    height: 600px;
-    background-image: url(../img/main.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-width: 300px;
+.content{
+
 }
-.main-image__text{
-    font-family: Cabin, sans-serif;
-    color: rgba(255, 251, 243, 0.87);
-    background-color: rgba(45, 45, 45, 0.71);
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 500px;
-    min-width: 220px;
+.w-100{
+    width: 100%;
 }
-.main-image__text div:first-child{
-    padding: 10px 0;
-    font-size: 40px;
-}
-.main-image__text div:last-child{
-    padding: 10px 0;
-    font-size: 20px;
+.d-block{
+    min-height: 100vh
 }
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
     top: 0;
     right: 0;
-    background-color: rgba(21, 21, 21, 0.95); /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    background-color: rgba(21, 21, 21, 0.95);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
 }
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -132,6 +115,7 @@ li a {
     font-size: 36px;
     margin-left: 50px;
     transition: 0.3s;
+    z-index: 4;
 }
 #main {
     transition: 0.5s;
@@ -161,12 +145,12 @@ li a {
     height: 100px;
     padding-top: 5px;
     font-family: Cabin, sans-serif;
-    opacity: 70%;
+    opacity: 80%;
     font-size: 12px;
 }
 .footer-top{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
@@ -275,6 +259,9 @@ li a {
     }
     .footer-bottom{
         justify-content: center;
+    }
+    .content{
+        margin-top: 120px;
     }
 }
 @media (max-width: 350px){
