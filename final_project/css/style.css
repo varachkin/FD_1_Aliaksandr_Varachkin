@@ -61,6 +61,7 @@ a img{
 ul{
     display: flex;
     list-style: none;
+    margin-bottom: 0;
 }
 li a {
     margin: 0 10px;
@@ -85,6 +86,13 @@ li a {
 .d-block{
     min-height: 100vh
 }
+.d-md-block{
+    background-color: rgba(45, 45, 45, 0.30);
+}
+.carousel-caption{
+    left: 30%;
+    right: 30%;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -103,6 +111,7 @@ li a {
     font-size: 25px;
     color: #dbdbdb;
     display: block;
+    text-align: center;
     transition: 0.3s;
 }
 .sidenav a:hover {
@@ -119,6 +128,9 @@ li a {
 }
 #main {
     transition: 0.5s;
+}
+.carousel-item{
+    height: 100vh;
 }
 .main-content{
     display: flex;
@@ -147,6 +159,8 @@ li a {
     font-family: Cabin, sans-serif;
     opacity: 80%;
     font-size: 12px;
+    position: relative;
+    bottom: 0;
 }
 .footer-top{
     display: flex;
@@ -259,9 +273,6 @@ li a {
     }
     .footer-bottom{
         justify-content: center;
-    }
-    .content{
-        margin-top: 120px;
     }
 }
 @media (max-width: 350px){
