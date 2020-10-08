@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2e6c7c77-cc1e-4714-85c0-43f965e92c39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/img/!/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/img/!/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/img/!/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/img/!/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/img/!/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/img/!/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/img/!/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/img/!/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_project/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602083282762</updated>
       <workItem from="1602083285217" duration="10766000" />
-      <workItem from="1602186159914" duration="11717000" />
+      <workItem from="1602186159914" duration="14159000" />
     </task>
     <servers />
   </component>
