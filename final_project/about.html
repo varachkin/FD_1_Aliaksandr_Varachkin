@@ -8,64 +8,175 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Contacts</a>
-        <a href="#">Starts</a>
-        <a href="#">Gallery</a>
-        <a href="#">Results</a>
-    </div>
-    <main id="main">
-        <header>
-            <div class="header container">
-                <div class="header__logo"><a href="index.html"><img src="./img/logo_white.png" alt=""></a></div>
-                <span class="header__burger" onclick="openNav()">&#9776;</span>
-                <ul class="header__block-button">
-                    <li><a class="header__button" href="">About</a></li>
-                    <li><a class="header__button" href="">Contacts</a></li>
-                    <li><a class="header__button" href="">Starts</a></li>
-                    <li><a class="header__button" href="">Gallery</a></li>
-                    <li><a class="header__button" href="">Results</a></li>
-                </ul>
-            </div>
-        </header>
-        <div style="margin-top:120px">
-
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="about.html">About</a>
+    <a href="Contact.html">Contacts</a>
+    <a href="starts.html">Starts</a>
+    <a href="galery.html">Gallery</a>
+    <a href="results.html">Results</a>
+</div>
+<main id="main">
+    <header>
+        <div class="header container">
+            <div class="header__logo"><a href="index.html"><img src="./img/logo_white.png" alt=""></a></div>
+            <span class="header__burger" onclick="openNav()">&#9776;</span>
+            <ul class="header__block-button">
+                <li><a class="header__button" href="about.html">About</a></li>
+                <li><a class="header__button" href="Contact.html">Contacts</a></li>
+                <li><a class="header__button" href="starts.html">Starts</a></li>
+                <li><a class="header__button" href="galery.html">Gallery</a></li>
+                <li><a class="header__button" href="results.html">Results</a></li>
+            </ul>
         </div>
-        <hr>
-        <footer class="footer container">
-            <div class="footer-top">
-                <div class="footer-top__text">Running Community</div>
-                <div class="footer-top__logo">
-                    <a class="footer-top__icon-1" href="https://www.instagram.com/runcomrun/?hl=ru" target="_blank"></a>
-                    <a class="footer-top__icon-2" href="https://vk.com/runcomrun" target="_blank"></a>
-                    <a class="footer-top__icon-3" href="https://ru-ru.facebook.com/runcomrun/" target="_blank"></a>
-                    <a class="footer-top__icon-4" href="https://twitter.com/igeekrunner" target="_blank"></a>
-                    <a class="footer-top__icon-5" href="https://support.google.com/googlecurrents/answer/6320394?co=GENIE.Platform%3DDesktop&hl=ru" target="_blank"></a>
+    </header>
+    <div class="content">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-block w-100" style="background-image: url(./img/8.jpg); background-size: cover;background-position: center center"></div>
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="btn">Details</button>
+                        <h1>Race along the Sozh river</h1>
+                        <p>The race will take place along a road with picturesque places along the Sozh River.
+                            Pleasant pastime with good views..</p>
+                    </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="d-block w-100" style="background-image: url(./img/13.jpg); background-size: cover;background-position: center center"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="btn">Details</button>
+                        <h1>Night Gomel Run</h1>
+                        <p>Running in silence at night ... This is a special pleasure.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block w-100" style="background-image: url(./img/10.jpg); background-size: cover;background-position: center center"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="btn">Details</button>
+                        <h1>Cross country race</h1>
+                        <p>Cross-country running will not only allow you to enjoy running,
+                            but will also test your muscles for strength.</p>
+                    </div>
+                </div>
+
             </div>
-            <div class="footer-bottom">
-                <div class="footer-bottom-block">
-                    <div style="font-size: 16px">E-mail address: varachkin@gmail.com</div>
-                    <div>ОО «БФЛА»
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <h1 style="padding: 30px 10px 30px; font-size: 60px; font-family: Cabin, sans-serif; text-align: center ">About RUN</h1>
+    <div class="container">
+        <div class="main-content-about flex-container">
+            <div class="main-content-about-content" style="text-indent: 40px; text-align: justify">
+                Running is one of the most popular types of all sports disciplines. Jogging is practiced not only
+                by amateurs who want to get in shape and stay healthy, but also professionals. Running disciplines
+                are part of athletics and belong to the Olympic sport. There are differences in running between
+                amateur and professional sports. For those who want to benefit from this discipline, there are
+                guidelines for the technique and frequency of independent training.
+            </div>
+            <div class="main-content-about-content" style="background-image: url(./img/about.jpg); height: 600px; background-position: center center; background-repeat: no-repeat; background-size: cover"><div class="overlay">About run</div></div>
+            <div class="main-content-about-content" style="background-image: url(./img/about2.jpg); height: 600px; background-position: center center; background-repeat: no-repeat; background-size: cover"><div class="overlay">About the benefits of running for men and women</div></div>
+            <div class="main-content-about-content">
+                <p style="text-indent: 40px; text-align: justify">
+                    There are many health and wellness benefits from jogging. Only with the correct running technique,
+                    breathing, and a moderate heart rate can you benefit from training, otherwise you can do just as
+                    much harm.
+                </p>
+                <p style="text-indent: 40px; text-align: justify">
+                    There are many health and wellness benefits from jogging. Only with the correct running technique,
+                    breathing, and a moderate heart rate can you benefit from training, otherwise you can do just as
+                    much harm.
+                    The main load during running falls on the leg muscles (soleus, calf), thigh muscles - the quadriceps
+                    and biceps muscles, as well as the gluteal muscles. But you cannot judge running only by the
+                    movement of the legs, the rest of the muscles also receive a sufficient load.
+                </p>
+            </div>
+            <div class="main-content-about-content">
+                <ol style="text-align: justify">
+                    <li>Running strengthens the cardio-respiratory system - heart, blood vessels, improves
+                        respiratory function and improves blood circulation.
+                    </li>
+                    <li>Tones up all muscles, organs and body systems.
+                        Improves the function of the musculoskeletal system - strengthens bone tissue.
+                    </li>
+                    <li>Improves blood circulation in the pelvic organs - helps to improve sexual function.</li>
+                    <li>Saturates all cells with oxygen, improves overall physical and emotional well-being,
+                        prevents stress, and enhances immune function.
+                    </li>
+                </ol>
+            </div>
+            <div class="main-content-about-content" style="background-image: url(./img/about3.jpg); height: 600px; background-position: center center; background-repeat: no-repeat"><div class="overlay">About what muscles work when running</div></div>
+            <div class="main-content-about-content" style="background-image: url(./img/about4.jpg); height: 600px; background-position: center top; background-repeat: no-repeat; background-size: cover"><div class="overlay">About running technique</div></div>
+            <div class="main-content-about-content">
+                <ol style="text-align: justify">
+                    <li><strong>When running, it is important to keep the axis of the spine in a natural position</strong>
+                        - you cannot take the pelvis back, performing a strong tilt, or push the pelvis forward,
+                        tilting the body back. Both positions will slow down speed and negatively affect the
+                        joints and spine.
+                    </li>
+                    <li><strong>The foot should touch completely the surface of the ground or path.</strong> Land on the center of
+                        your foot, not on your heel or toe. Move your arms at the same time as your legs move,
+                        your arms help you accelerate better and make your core muscles work.
+                    </li>
+                    <li><strong>Don't hold your breath or breathe too often.</strong> Inhale through your nose and exhale through
+                        your mouth, slowly releasing air.
+                    </li>
+                    <li><strong>Try to inhale when touching the right foot on the floor,</strong> this will avoid internal pressure
+                        on the organs, and eliminate pain in the side.
+                    </li>
+                    <li>
+                        <strong>The feet should be in a parallel position to each other, not tucking in or apart</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer class="footer container">
+        <div class="footer-top">
+            <div class="footer-top__text">Running Community</div>
+            <div class="footer-top__logo">
+                <a class="footer-top__icon-1" href="https://www.instagram.com/runcomrun/?hl=ru" target="_blank"></a>
+                <a class="footer-top__icon-2" href="https://vk.com/runcomrun" target="_blank"></a>
+                <a class="footer-top__icon-3" href="https://ru-ru.facebook.com/runcomrun/" target="_blank"></a>
+                <a class="footer-top__icon-4" href="https://twitter.com/igeekrunner" target="_blank"></a>
+                <a class="footer-top__icon-5" href="https://support.google.com/googlecurrents/answer/6320394?co=GENIE.Platform%3DDesktop&hl=ru" target="_blank"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-block">
+                <div style="font-size: 16px">E-mail address: varachkin@gmail.com</div>
+                <div>ОО «БФЛА»
 
-                        Регистрационный номер 01712
+                    Регистрационный номер 01712
 
-                        Дата регистрации 28.11.2006 № 350/1
+                    Дата регистрации 28.11.2006 № 350/1
 
-                        Наименование регистрирующего органа Министерство юстиции
+                    Наименование регистрирующего органа Министерство юстиции
 
-                        Учетный номер плательщика 100141126</div>
+                    Учетный номер плательщика 100141126</div>
 
-                </div>
-                <div>
-                    <img style="max-width: 300px; height: 20px" src="./img/sponsored.png" alt="">
-                </div>
-        </footer>
-    </main>
-    <script src="./js/js.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            </div>
+            <div>
+                <img style="max-width: 300px; height: 20px" src="./img/sponsored.png" alt="">
+            </div>
+    </footer>
+</main>
+<script src="./js/js.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>

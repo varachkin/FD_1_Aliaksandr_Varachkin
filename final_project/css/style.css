@@ -168,6 +168,9 @@ li a {
     background-color: #f8f5f3;
     position: relative;
 }
+.main-content-about-content:hover .overlay{
+    opacity: 0.8;
+}
 .overlay {
     position: absolute;
     bottom: 10px;
@@ -183,6 +186,9 @@ li a {
     text-align: center;
     margin: 0 auto;
     border-radius: 5px;
+}
+.overlay:hover{
+    cursor: pointer;
 }
 .main-content{
     display: flex;
@@ -312,6 +318,185 @@ li a {
     padding: 10px 0;
     min-width: 300px;
 }
+/*------------------------------------------------------------*/
+.table{
+    display: flex;
+    justify-content: center;
+    color: #514d50;
+    align-items: center;
+    height: 80px;
+}
+.top{
+    background-color: white;
+    margin-top: 120px;
+}
+.body{
+    font-weight: 600;
+}
+.string{
+    padding: 0 40px;
+    font-size: 12px;
+    flex-basis: 0;
+    flex-grow: 3;
+    text-align: center;
+}
+.string-top{
+    padding: 0 40px;
+    flex-basis: 0;
+    flex-grow: 3;
+    text-align: center;
+    font-size: 12px;
+    color: black;
+}
+.string:hover{
+    cursor: pointer;
+    color: red;
+}
+.center{
+    flex-basis: 0;
+    flex-grow: 4;
+}
+.rigt{
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-right: 15px;
+    justify-content: flex-end;
+}
+.table-content{
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    align-items: center;
+    padding: 20px 0;
+}
+.table-content:hover{
+    box-shadow: inset 2px 0px 52px -27px rgba(107,107,107,1);
+}
+.blue-button{
+    background-color: #37378d;
+    min-width: 140px;
+    text-align: center;
+    transition: 0.3s;
+}
+.none-button div{
+    min-width: 140px;
+    text-align: center;
+    transition: 0.3s;
+    color: #514d50;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.red-button{
+    background-color: #bf0000;
+}
+.button{
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.blue-button:hover{
+    background-color: #4a4ad2;
+}
+.red-button:hover{
+    background-color: #a70000;
+}
+.body > div:nth-child(odd){
+    background-color: #eeeaed;
+    border-top: 1px solid #c1bdc0;
+    border-bottom: 1px solid #c1bdc0;
+}
+.bottom{
+    background-color: #fffbf4;
+    font-weight: 600;
+    font-size: 18px;
+}
+.page-result{
+    display: flex;
+}
+.text-page-result{
+    padding-left: 20px;
+}
+.footer-table{
+    display: flex;
+    color: #514d50;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    margin: 0 40px;
+    font-size: 12px;
+}
+.botton-page-footer{
+    padding: 10px 15px;
+}
+.botton-page-footer:hover{
+    cursor: pointer;
+    background-color: #c1bdc0;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+/*------------------------------------------------------------*/
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 1px rgb(98, 90, 71);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+/*-------------------------------------------------*/
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -330,6 +515,9 @@ li a {
     }
     .main-image__text{
         margin: 0 20px;
+    }
+    .table-result{
+        overflow-x: auto;
     }
 }
 @media (max-width: 970px) {
